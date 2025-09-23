@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Cart</h1>
+
+<%= link_to "Products", products_path %><br>
+
+<% @products.each do |product| %>
+  <%= link_to product.name, product %><br>
+  <%= button_to "Remove From Cart", remove_from_cart_path(product), method: :patch %>
+<% end %>
