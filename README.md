@@ -1,24 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### This is my first ruby on rails project...well, my second because the first one had some issues so I'm starting over.
+So here's what I'm thinking:
+A product CRUD, you can manage any products and add to your cart or remove from your cart.
